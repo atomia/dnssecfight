@@ -52,6 +52,10 @@
 			</ul>
 		</p>
 
+		<p>
+			The DNSSEC operator fight is sponsored by the signature loving DNS geeks of <a href="http://www.atomia.com/">Atomia</a>.
+		</p>
+
 		<script type="text/javascript">
 			<?php echo $hosters_data; ?>
 
