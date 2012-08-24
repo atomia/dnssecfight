@@ -42,6 +42,16 @@
 
 		<div id="graph" style="width:90%;height:700px;"></div>
 
+		<p>
+			Algorithm:
+			<ul>
+				<li>We grab all names with DS records in the .com and .net zones.
+				<li>We count the number of names per unique DNS operator
+				<li>Unique is defined by <a href="https://github.com/atomia/dnssecfight/blob/master/hoster_map">a generated map based on SOA for the nameserver name</a> or some really 
+				<a href="https://github.com/atomia/dnssecfight/blob/master/process_zone.sh#L48">simplistic code</a> for the nameservers not in the map.
+			</ul>
+		</p>
+
 		<script type="text/javascript">
 			<?php echo $hosters_data; ?>
 
